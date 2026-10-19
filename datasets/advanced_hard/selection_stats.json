@@ -1,0 +1,17 @@
+{
+  "total": 100000,
+  "after_boxed": 67440,
+  "after_length": 64842,
+  "length_threshold": 6486.0,
+  "after_difficulty": 32424,
+  "after_dedup": 29437,
+  "selected": 15000,
+  "clusters": 100,
+  "selected_mean_tokens": 10502.883,
+  "selected_median_tokens": 10083.0,
+  "selected_min_tokens": 6486,
+  "selected_max_tokens": 16319,
+  "all_mean_tokens": 7508.33337,
+  "all_median_tokens": 6650.0,
+  "seed": 42
+}

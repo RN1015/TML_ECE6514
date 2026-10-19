@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large model and checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.gguf
+
+# Generated artifacts
+cache/
+logs/
+outputs/
+models/
+
+# Secrets
+.env
+.env.*
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Generated files
+*.log
+__pycache__/
+.git.backup/
+datasets/advanced_hard/data/acereason11_100k.json
+
+# Virtual environments
+.venv/
+.venv-eval/
+.venv-*/
+
+# Models and checkpoints
+models/
+outputs/
+cache/
+logs/
+checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Large evaluation outputs
+**/eval/outputs_*/
+*.pkl
+
+# Large datasets
+datasets/advanced_hard/data/acereason11_100k.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Nested Git metadata backup
+.git.backup/
+
+# Model weights and checkpoints
+models/
+outputs/
+cache/
+logs/
+
+# Virtual environments
+.venv/
+.venv-eval/
+
+# Large datasets
+datasets/advanced_hard/data/acereason11_100k.json
+
+# Evaluation artifacts
+**/eval/outputs_*/
+*.pkl
+*.jsonl
+
+# Nested Git backup
+.git.backup/
+
+# Git history backups
+.git-old-backup/
+.git.backup/
+
+# Virtual environments
+.venv/
+.venv-eval/
+.venv-*/
+
+# Model weights and checkpoints
+models/
+outputs/
+cache/
+logs/
+checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Large datasets
+datasets/advanced_hard/advanced_hard15k.json
+datasets/advanced_hard/data/acereason11_100k.json
+
+# Evaluation outputs
+**/eval/outputs_*/
+*.pkl
+
+# Python
+__pycache__/
+*.pyc

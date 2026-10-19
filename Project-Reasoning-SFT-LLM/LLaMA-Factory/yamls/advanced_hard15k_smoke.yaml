@@ -1,0 +1,38 @@
+### model
+model_name_or_path: /home/kasei/reasoning-sft-gh200/models/Qwen2.5-3B-Instruct
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+flash_attn: auto
+gradient_checkpointing: true
+
+### dataset
+dataset: advanced_hard15k
+template: qwen
+cutoff_len: 16384
+overwrite_cache: true
+preprocessing_num_workers: 8
+
+### output
+output_dir: /home/kasei/reasoning-sft-gh200/outputs/advanced_hard_smoke
+logging_steps: 1
+save_steps: 200
+save_total_limit: 2
+plot_loss: true
+overwrite_output_dir: false
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 5.0e-6
+num_train_epochs: 2
+lr_scheduler_type: cosine
+warmup_ratio: 0.0
+bf16: true
+report_to: none
+seed: 42
+
+max_steps: 2
+save_strategy: "no"
