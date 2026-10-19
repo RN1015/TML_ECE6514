@@ -115,3 +115,9 @@ datasets/advanced_hard/data/acereason11_100k.json
 # Python
 __pycache__/
 *.pyc
+
+# Advanced Hard large datasets
+datasets/advanced_hard/advanced_hard15k.json
+datasets/advanced_hard/data/acereason11_100k.json
+datasets/advanced_hard/.cache/
+datasets/advanced_hard/selection.log
